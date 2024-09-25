@@ -58,7 +58,7 @@ body {
     border-radius: 22px;
     font-weight: bold;
     border-color: #7642DD;
-    padding: 11px 18px;
+    padding: 10px 18px;
     color: rgba(255, 255, 255, 0.73);
 }
 
@@ -67,7 +67,7 @@ body {
     border-radius: 22px;
     font-weight: bold;
     border-color: #7642DD;
-    padding: 15px 22px;
+    padding: 10px 22px;
     color: rgba(255, 255, 255, 0.73);
     margin-top: 15px;
 }
@@ -83,13 +83,12 @@ body {
     width: 50%;
     align-items: center;
 }
-.container {
-    width: 65%;
+.containerTeste {
+    width: 75%;
     margin: 0 auto;
     background-color: #F7F7F7;
     flex-direction: column;
-    padding: 1px 40px;
-    padding-bottom: 40px;
+    padding: 40px 40px;
     border-radius: 8px;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.200);
     height: '20%';  
@@ -126,4 +125,61 @@ body {
     padding-top: 0.1px;
     font-style: italic;
     color: #787676;
+}
+.bloco{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    width: 80%;
+    background-color: #d9d9d995;
+    border-radius: 10px;
+    margin-left: 0px;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.TextoColorido {
+    margin-top: 40px;
+    background: linear-gradient(to right, #6a0dad, #2F8098);
+    padding: 50px 20px;
+    text-align: center;
+    color: #fff;
+}
+.TextoColorido h2 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.TextoColorido p {
+    font-size: 18px;
+}
+
+footer {
+    background-color: #8C52FF;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.icon-midia img {
+    margin-right: 20px;
+    width: 27px;
+}
+
+.icon-midia img:hover {
+    transform: scale(1.2);
+}
+
+.custom-Carousel {
+    width: 85%;
+    margin: 0 auto;
+    
+}
+.carousel-inner{
+    border-radius: 30px;
 }
