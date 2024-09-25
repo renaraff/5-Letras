@@ -50,9 +50,11 @@ body {
     text-align: right;
     position: relative;
 }
+
 .fa-solid {
     margin-right: 10px;
 }
+
 .botao {
     background-color: #8C52FF;
     border-radius: 22px;
@@ -82,7 +84,7 @@ body {
     background-color: #7645d8;
 }
 
-.corpo{
+.corpo {
     width: 100%;
     display: flex;
     flex-flow: row;
@@ -93,6 +95,7 @@ body {
     width: 50%;
     align-items: center;
 }
+
 .containerTeste {
     width: 75%;
     margin: 0 auto;
@@ -101,10 +104,10 @@ body {
     padding: 40px 40px;
     border-radius: 8px;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.200);
-    height: '20%';  
+    height: '20%';
 }
 
-.caixaimagem{
+.caixaimagem {
     width: 50%;
     text-align: right;
     padding-top: 15px;
@@ -126,6 +129,7 @@ body {
 .bold {
     font-weight: bold;
 }
+
 .texto1 {
     font-size: 17px;
     color: #2F8098;
@@ -136,7 +140,8 @@ body {
     font-style: italic;
     color: #787676;
 }
-.bloco{
+
+.bloco {
     font-size: 18px;
     font-weight: bold;
     color: black;
@@ -157,11 +162,13 @@ body {
     text-align: center;
     color: #fff;
 }
+
 .TextoColorido h2 {
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 10px;
 }
+
 .TextoColorido p {
     font-size: 18px;
 }
@@ -185,14 +192,95 @@ footer {
     transform: scale(1.2);
 }
 
+.div-textoroxo {
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.textoroxo {
+    font-weight: 660;
+    font-size: 30px;
+    margin-bottom: -6px;
+    text-align: center;
+    color: rgba(102, 53, 199, 1);
+}
+
 .custom-Carousel {
     width: 85%;
-    margin: 0 auto;
-    
+    margin-top: 4%;
+    margin-left: 7%;
+    margin-bottom: 3%;
 }
-.carousel-inner{
+
+.carousel-inner {
     border-radius: 30px;
 }
 
+.textos {
+    font-style: italic;
+    text-align: center;
+    font-size: 17px;
+}
+
+.texto-imgcentro {
+    color: #2F8098;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.img-centro {
+    width: 78%;
+    margin-left: 10%;
+    margin-bottom: 7%;
+    border-radius: 16px;
+}
+
+.centro {
+    align-items: center;
+    margin: 0 auto;
+}
+
+.FundoColorido {
+    margin: 0 auto;
+    width: 100%;
+    background: linear-gradient(to right, #6a0dad, #2F8098);
+    padding: 50px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.faq {  
+    margin: 0 auto;
+    width: 95%;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+.containerFaq { 
+    width: 75%;
+    margin: 0 auto;
+    background-color: #F7F7F7;
+    flex-direction: column;
+    padding: 20px 20px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.200);
+    height: '20%';
+}
+
+.tituloFaq {
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+    color: #495867;
+}
 
 
+.resposta {
+    margin-top: -13px;
+    text-align: left;
+    font-size: 16px;
+    color: #787676;
+}
